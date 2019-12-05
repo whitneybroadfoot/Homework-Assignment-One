@@ -1,3 +1,3 @@
 Portfolio
 
-![computer image](One_Portfolio\items\images\Homework_One_Portfolio.png)
+![image of computer](https://user-images.githubusercontent.com/55456375/70281993-abdb9e80-1779-11ea-8560-7417db35758f.png)
