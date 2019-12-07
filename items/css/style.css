@@ -89,12 +89,25 @@ img {
     padding-bottom: 25px;
 }
 
-/*Attempt at boxes*/
+/*Making boxes, all the same size and margin apart */
 .boxes {
     position: relative;
 }
 
+.clearfix::after {
+    clear: both;
+    content: "";
+    display: block;
+}
+
+.center-div > div {
+    float: left;
+    margin-rigt: 10px;
+}
+
 .box-one {
+    margin: 20px;
+    float: left;
     position: center;
     color: white;
     text-align: center;
@@ -104,6 +117,8 @@ img {
 }
 
 .box-two {
+    margin: 20px;
+    float: left;
     position: center;
     color: white;
     text-align: center;
@@ -113,6 +128,8 @@ img {
 }
 
 .box-three {
+    margin: 20px;
+    float: left;
     position: center;
     color: white;
     text-align: center;
@@ -122,6 +139,8 @@ img {
 }
 
 .box-four {
+    margin: 20px;
+    float: left; 
     position: center;
     color: white;
     text-align: center;
@@ -131,6 +150,8 @@ img {
 }
 
 .box-five {
+    margin: 20px;
+    float: left;
     position: center;
     color: white;
     text-align: center;
