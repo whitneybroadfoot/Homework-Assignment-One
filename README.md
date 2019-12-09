@@ -3,20 +3,13 @@
 ![image of computer](https://user-images.githubusercontent.com/55456375/70281993-abdb9e80-1779-11ea-8560-7417db35758f.png)
 
 
+## Thanks for visiting my Portfolio
+
+As a new web developer I wanted to build a portfolio so that I can showcase some of my work, and build on the skills that I am learning. If you are a potential client, feel free to look around and let me know what you think!
+
+
+## Requirements for Homework Submission Below: 
 Build a professional portfolio site using HTML and CSS following a set of specifications and a style guide.
-
-## User Story
-AS A web developer
-I WANT a deployed portfolio
-SO THAT I can showcase my applications to potential employers and clients
-
-## Business Context
-A portfolio is often the first point of contact for employers looking to fill a position or clients in need of a developer to complete a project. A clean and informative portfolio showcases a developer's strongest work and can lead to employment and/or more clients.
-
-## Acceptance Criteria
-GIVEN that an employer or client wants to hire a developer WHEN viewing their portfolio THEN they are able to learn about the developer, find contact information, and follow links to projects and repositories
-
-## Instructions
 Create a new GitHub repository, initialize it with a README.md, and clone it to your local development environment.
 
 Inside the repo folder on your computer, create the following:

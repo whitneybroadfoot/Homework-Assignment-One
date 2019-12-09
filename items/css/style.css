@@ -1,13 +1,17 @@
 /*Trying to find a way to format the upper name box color*/
-#page-header
+#page-header {
+    position: relative;
+}
+
+.my-name
 {
-    width: 10%;
     background-color: #4aaaa5;
     Color: white;
     text-align: center;
+    width: 20%;
     height: 50px;
     margin-left: 86px;
-    margin-top: auto;
+    margin: auto;
     float: left;
     position: absolute;
     font-family: 'Georgia', Times, 'Times New Roman', serif;
@@ -18,10 +22,12 @@
 /*make the heading white*/
 header
 {
-background-color: white;
-padding-top: 25px;
-padding-bottom: 25px;
-padding-left: 195px;
+    background-color: white;
+    width: 100%
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 5%;
+    padding-left: 195px;
 }
 
 /*Make the background a pattern and all text uniform*/
@@ -44,7 +50,6 @@ h1 {
 div.about-me-section {
     line-height: 1.8;
     float: right;
-    margin: 10px;
 }
 
 /*Text will wrap around images, images will appear
@@ -99,12 +104,7 @@ auto adjust size based on content, and have padding for text*/
 /*Formatting the submission page, boxes
 auto size to the center div not sure on this*/
 .submitting-form {
-padding-bottom: 25px;
-}
-
-/*Making boxes, all the same size and margin apart */
-.boxes {
-    position: relative;
+    padding-bottom: 25px;
 }
 
 .clearfix::after {
