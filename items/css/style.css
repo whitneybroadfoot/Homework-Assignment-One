@@ -1,10 +1,21 @@
-/*Trying to find a way to format the upper name box color #ffffff*/
+/*Trying to find a way to format the upper name box color*/
 #page-header
 {
-background-color: yellow;
-}
+    width: 10%;
+    background-color: #4aaaa5;
+    Color: white;
+    text-align: center;
+    height: 50px;
+    margin-left: 86px;
+    margin-top: auto;
+    float: left;
+    position: absolute;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    font-size: 20px;
+    overflow: auto;
+    }
 
-/*Can't get this*/
+/*make the heading white*/
 header
 {
 background-color: white;
@@ -32,10 +43,20 @@ h1 {
 /*Space out the bio section to look like the example*/
 div.about-me-section {
     line-height: 1.8;
+    float: right;
+    margin: 10px;
 }
 
-/*Options at top of page appear gray, not underlined or "linked"
-still need to try to get position correct*/
+/*Text will wrap around images, images will appear
+on the left of the content div, there will be space padding*/
+.textWrap {
+    float: left;
+    clear: right;
+    padding-right: 25px;
+    padding-bottom: 25px;
+}
+
+/*Options at top of page appear gray, not underlined or "linked"*/
 a {
     color: grey;
     text-decoration: none;
@@ -46,7 +67,7 @@ a {
     float: right;
 }
 
-/*Footer of page always live at bottom, with white centered text, 
+/*Footer of page always lives at bottom, with white centered text, 
 and padding for the content of the page at the bottom*/
 footer {
     border-top: 8px solid #4aaaa5;
@@ -75,18 +96,10 @@ auto adjust size based on content, and have padding for text*/
     font-family: Georgia, Times New Roman, Times, serif;
 }
 
-/*Formatting the submission page, try to get boxes
+/*Formatting the submission page, boxes
 auto size to the center div not sure on this*/
 .submitting-form {
 padding-bottom: 25px;
-}
-
-/*Text will wrap around images, images will appear
-on the left of the content div, there will be space padding*/
-img {
-    float: left;
-    padding-right: 25px;
-    padding-bottom: 25px;
 }
 
 /*Making boxes, all the same size and margin apart */
@@ -102,7 +115,7 @@ img {
 
 .center-div > div {
     float: left;
-    margin-rigt: 10px;
+    margin-right: 10px;
 }
 
 .box-one {
