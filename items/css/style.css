@@ -90,13 +90,13 @@ footer {
 /*Make content areas have a white background, center to page,
 auto adjust size based on content, and have padding for text*/
 .center-div {
-    margin: 0 auto;
+    margin: 20px auto;
     background-color: white;
     width: 960px;
     align: center;
-    padding-top: 20px;
+    padding-top: 5px;
     padding-right: 50px;
-    padding-bottom: 75px;
+    padding-bottom: 50px;
     padding-left: 50px;
     font-family: Georgia, Times New Roman, Times, serif;
 }
